@@ -1,1 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../src/index.css">
+    <title>To Do List</title>
+</head>
+<body>
+    <section id="display">
+        <div id="todo">
+            <div id="todo-head">
+                <h3>Today's To Do</h3>
+                <i class="fa-solid fa-rotate"></i>
+            </div>
+            <div id="add">
+                <input type="text" name="task" placeholder="Add to list...">
+            </div>
+            <div id="task-wrapper">
+                <li class="task">
+                    <input type="checkbox" />
+                    <label>
+                      <span class="check-mark">&#10004;</span>
+                      <span class="custom-checkbox"></span>
+                      <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </label>
+                  </li>
+            </div>
 
+            <button>Clear All Completed</button>
+        </div>
+    </section>
+</body>
+</html>
