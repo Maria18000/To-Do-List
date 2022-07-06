@@ -10,27 +10,31 @@
 </head>
 <body>
     <section id="display">
-        <div id="todo">
-            <div id="todo-head">
+        <div id="list">
+            <div id="list-head">
                 <h3>Today's To Do</h3>
                 <i class="fa-solid fa-rotate"></i>
             </div>
+
             <div id="add">
-                <input type="text" name="task" placeholder="Add to list...">
+                <input id="input" type="text" name="task" placeholder="Add to list...">
             </div>
+
             <div id="task-wrapper">
-                <li class="task">
+                <!-- <li class="task">
                     <input type="checkbox" />
                     <label>
                       <span class="check-mark">&#10004;</span>
                       <span class="custom-checkbox"></span>
                       <i class="fa-solid fa-ellipsis-vertical"></i>
                     </label>
-                  </li>
+                  </li> -->
             </div>
 
             <button>Clear All Completed</button>
         </div>
     </section>
+
+    <script src="../src/index.js"></script>
 </body>
 </html>
