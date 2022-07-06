@@ -4,7 +4,7 @@ const items = [
   {
     description: 'wash dishes',
     completed: true,
-    index: 0,
+    index: 3,
   },
   {
     description: 'Laundary',
@@ -14,7 +14,7 @@ const items = [
   {
     description: 'cleaning the house',
     completed: true,
-    index: 2,
+    index: 0,
   },
   {
     description: 'shopping',
@@ -23,8 +23,9 @@ const items = [
   },
 ];
 
+const sortedItems = items.sort((a, b) => a.index - b.index);
 const wrapper = document.getElementById('task-wrapper');
-items.forEach((item) => {
+sortedItems.forEach((item) => {
   const task = document.createElement('li');
   const desc = document.createElement('p');
   desc.classList = 'task-desc';
