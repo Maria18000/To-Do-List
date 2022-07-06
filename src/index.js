@@ -1,13 +1,25 @@
+import './index.css';
+
 const items = [
   {
-    description: 'test1',
+    description: 'wash dishes',
+    completed: true,
+    index: 0,
+  },
+  {
+    description: 'Laundary',
     completed: true,
     index: 1,
   },
   {
-    description: 'test2',
+    description: 'cleaning the house',
     completed: true,
-    index: 0,
+    index: 2,
+  },
+  {
+    description: 'shopping',
+    completed: true,
+    index: 2,
   },
 ];
 
