@@ -28,7 +28,7 @@ i {
   color: grey;
 }
 
-#list{
+#list {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -48,7 +48,7 @@ i {
 }
 
 button {
-  width:100%;
+  width: 100%;
   background-color: #fcfdfd;
   padding: 3%;
   border: none;
